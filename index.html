@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald’s App</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg"
+        type="image/x-icon">
+</head>
+
+<body>
+
+
+    <div id="main">
+        <div id="top">
+            <h3></h3>
+        </div>
+
+        <div id="checkbox">
+            <input type="checkbox" >
+            <label>Pizza</label>
+            <input type="checkbox" >
+            <label>Burger</label>
+            <input type="checkbox" >
+            <label>Coca cola</label>
+            <input type="checkbox" >
+            <label>Momos</label>
+            <input type="checkbox" >
+            <label>French Fries</label>
+            <input type="checkbox" >
+            <label>Desserts & Shakes</label>
+        </div>
+        <div id="menubar">
+
+            <select id="food">
+
+                <option value="">Confirm Your Menu</option>
+                <option value="Pizza">Pizza</option>
+                <option value="Burger">Burger</option>
+                <option value="Cocacola">CocaCola</option>
+                <option value="Momos">Momos</option>
+                <option value="French Fries">French Fries</option>
+                <option value="Shakes">Shakes</option>
+
+            </select>
+            <button id="order" onclick="orderFood()">Order Food</button>
+        </div>
+
+        <div id="orderbox"></div>
+    </div>
+
+</body>
+
+</html>
+<script src="./index.js"></script>

@@ -1,0 +1,89 @@
+img{
+    width: 60%;
+    height: 250px;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 2px solid firebrick;
+}
+#orderbox{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 30px;
+    
+}
+/* #orderno{
+    display: flex;
+    justify-content: center;
+} */
+#checkbox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+#food{
+    text-align: center;
+}
+#menubar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+    gap: 10px;
+    /* background-color: rgb(245, 135, 135); */
+    
+    
+}
+#main{
+    
+    background-image: url("https://media.istockphoto.com/photos/mcdonalds-restaurant-exterior-view-of-the-fast-food-restaurant-on-picture-id1253052423?k=20&m=1253052423&s=612x612&w=0&h=ar8Jkg_xhZnycNmA1I-UgriKVvMsEDLnYYQLFFygUm4=");
+    background-size: cover;
+    height: 700px;
+    /* border-radius: 10px; */
+}
+#order{
+    font-weight: bold;
+    height: 40px;
+    border-radius: 10px;
+    background-color: firebrick;
+    cursor: pointer;
+}
+#order:hover{
+    background-color: red;
+}
+#food{
+    font-weight: bold;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid firebrick;
+    background-image: url("https://live.staticflickr.com/7233/6867643986_766124d9fa_c.jpg");
+
+}
+h1{
+    
+    padding: 10px 50px;
+    color: white;
+
+    
+}
+h3{
+    text-align:center ;
+    
+}
+#top{
+    background-image: url("https://live.staticflickr.com/7233/6867643986_766124d9fa_c.jpg");
+    background-size: contain;
+    width: 98%;
+    margin: auto;
+    padding: 5px;
+    border: 3px solid black ;
+    color: black;
+    font-size: x-large;
+    border-radius: 5px;
+}
